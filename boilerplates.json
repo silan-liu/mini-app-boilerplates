@@ -1,0 +1,10 @@
+{
+  "boilerplates": [
+    {
+      "name": "type",
+      "type": "list",
+      "message": "选择模版:",
+      "choices": [{ "name": "默认模版", "value": "default" }]
+    }
+  ]
+}

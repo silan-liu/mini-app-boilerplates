@@ -1,0 +1,28 @@
+{
+  "prompts": [
+    {
+      "name": "name",
+      "type": "input",
+      "message": "小程序名:",
+      "default": "dyminiapp"
+    },
+    {
+      "name": "version",
+      "type": "input",
+      "message": "初始版本:",
+      "default": "0.0.1"
+    },
+    {
+      "name": "description",
+      "type": "input",
+      "message": "描述信息:",
+      "default": "斗鱼小程序默认模版"
+    },
+    {
+      "name": "author",
+      "type": "input",
+      "message": "作者:",
+      "default": "anonymous"
+    }
+  ]
+}
