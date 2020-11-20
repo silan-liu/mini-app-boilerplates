@@ -1,14 +1,15 @@
 {
-  "plugins": ["@dymp/dymp"],
-  "parserOptions": {
-    "ecmaVersion": 10,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
-  "rules": {
-    "@dymp/dymp/forbidden-import": "error"
-  },
-  "parser": ""
+"plugins": ["@dymp/dy-miniapp"],
+"parserOptions": {
+"ecmaVersion": 10,
+"sourceType": "module",
+"ecmaFeatures": {
+"jsx": true
+}
+},
+"rules": {
+"@dymp/dy-miniapp/forbidden-import": "error",
+"@dymp/dy-miniapp/forbidden-global-call": "error"
+},
+"parser": ""
 }
